@@ -1,0 +1,113 @@
+:root {
+    --mainColor: #000000;
+    --lightBlue: #5800FF;
+    --pink: #E900FF;
+    --orange: #FFC600;
+    --mainFont: 'Alegreya Sans', sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom right, var(--mainColor), var(--pink));
+}
+.navbar-custom{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom right, var(--mainColor), var(--pink));
+    border-radius: 5px;
+}
+.mobileonly{
+    display: none;
+}
+.link{
+    color: var(--pink);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: var(--mainFont);
+    cursor: pointer;
+}
+.link:hover{
+    color: var(--orange);
+}
+.container-fluid{
+    background-color: var(--mainColor);
+}
+.navbar-toggler-icon{
+    color: white;
+    transform: rotate(90deg);
+    letter-spacing: 1px;
+}
+.nav-item{
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.modal-title{
+    font-family: var(--mainFont);
+    color: var(--pink);
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.modal-body{
+    background-image: linear-gradient(to bottom left, var(--mainColor), var(--pink));
+    border-radius: 5px;
+}
+.landingimage{
+    display: block;
+    width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5px;
+   margin-top: 5px;
+   border: solid 2px;
+}
+.modalLinks{
+    list-style-type: none;
+}
+.mLink{
+    color: var(--orange);
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 2px;
+    font-family: var(--mainFont);
+    font-weight: bolder;
+}
+.mLink:hover{
+    color: var(--mainColor);
+}
+.linkLogo{
+    height: 25px;
+}
+.close{
+    font-family: var(--mainFont);
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: bolder;
+    cursor: pointer;
+    border:solid 1px;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 30px;
+}
+.close:hover{
+    color: var(--mainColor);
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .link{
+        font-size: 20px;
+    }
+    .nav-item{
+        padding-left: 15px;
+    }
+    .mobileonly{
+        display: block;
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        font-family: var(--mainFont);
+        color: var(--pink);
+        margin-top: 15px;
+    }
+}
