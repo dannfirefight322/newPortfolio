@@ -111,4 +111,7 @@ body{
         color: var(--pink);
         margin-top: 15px;
     }
+    .mLink{
+        font-family: var(--mainFont);
+    }
 }
