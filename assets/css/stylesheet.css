@@ -21,7 +21,7 @@ body{
 .link{
     color: var(--pink);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 27px;
    
     font-family: var(--mainFont);
     cursor: pointer;
