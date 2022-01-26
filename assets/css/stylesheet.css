@@ -94,6 +94,10 @@ body{
 .close:hover{
     color: var(--mainColor);
 }
+/*Landing*/
+.mLonly{
+    display: none;
+}
 /* about me styles. */
 .aboutMe{
     font-size: 26px;
@@ -157,7 +161,17 @@ body{
     .mLink{
         font-family: var(--mainFont);
     }
+    /*Landing*/
+    .mLonly{
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        border-radius: 2%;
+    }
     /*about me*/
+    
     .aboutMe{
         font-size: 20px;
     }
