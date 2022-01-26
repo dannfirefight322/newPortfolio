@@ -158,8 +158,17 @@ body{
         font-family: var(--mainFont);
     }
     /*about me*/
+    .aboutMe{
+        font-size: 20px;
+    }
+    .aMeTitle{
+        font-size: 40px;
+    }
     .custom-image{
         width: 100%;
         height: auto;
+    }
+    .badge{
+        margin: 5px;
     }
 }
