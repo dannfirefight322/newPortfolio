@@ -94,6 +94,49 @@ body{
 .close:hover{
     color: var(--mainColor);
 }
+/* about me styles. */
+.aboutMe{
+    font-size: 26px;
+    background-color: var(--mainColor);
+    color: var(--orange);
+    font-family: var(--mainFont);
+    padding: 5px;
+    box-shadow: 10px 5px 5px var(--pink);
+    text-align: center;
+    border-radius: 5px;
+}
+.aMeTitle{
+    color: var(--orange);
+    font-family: var(--mainFont);
+    text-align: center;
+    margin-top: 15px;
+}
+.custom-image{
+    border-radius: 50%;
+    height: 500px;
+    box-shadow: 10px 5px 5px var(--pink);
+}
+.badgeTitle{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--orange);
+    font-family: var(--mainFont);
+}
+.badges{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.badge{
+    margin: 15px;
+}
+.badge:hover{
+    box-shadow: 10px 5px 5px var(--pink); 
+    cursor: pointer;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .link{
@@ -113,5 +156,10 @@ body{
     }
     .mLink{
         font-family: var(--mainFont);
+    }
+    /*about me*/
+    .custom-image{
+        width: 100%;
+        height: auto;
     }
 }
