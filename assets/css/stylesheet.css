@@ -114,6 +114,7 @@ body{
     font-family: var(--mainFont);
     text-align: center;
     margin-top: 15px;
+    font-weight: bold;
 }
 .custom-image{
     border-radius: 50%;
@@ -127,6 +128,7 @@ body{
     margin-bottom: 5px;
     color: var(--orange);
     font-family: var(--mainFont);
+    font-weight: bold;
 }
 .badges{
     display: flex;
