@@ -143,6 +143,15 @@ body{
     box-shadow: 10px 5px 5px var(--pink); 
     cursor: pointer;
 }
+.mobileonly-badge{
+    display: none;
+}
+.badges-mobile{
+    display: none;
+}
+.custom-badge{
+    display: none;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .link{
@@ -173,7 +182,9 @@ body{
         border-radius: 2%;
     }
     /*about me*/
-    
+    .jumbotron-fluid{
+        margin-top: 15px;
+    }
     .aboutMe{
         font-size: 20px;
     }
@@ -185,7 +196,25 @@ body{
         height: auto;
     }
     .badge{
-        margin: 5px;
+        display: none;
+    }
+    .badges{
+        display: none;
+    }
+    .mobileonly-badge{
+        display: flex;
+    }
+    .badges-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .custom-badge{
+        display: flex;
+        margin: 2px;
     }
 }
 /* Tablet*/
