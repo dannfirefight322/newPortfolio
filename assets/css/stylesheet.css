@@ -21,7 +21,7 @@ body{
 .link{
     color: var(--pink);
     text-decoration: none;
-    font-size: 27px;
+    font-size: 22px;
    
     font-family: var(--mainFont);
     cursor: pointer;
@@ -38,8 +38,8 @@ body{
     letter-spacing: 1px;
 }
 .nav-item{
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .modal-title{
     font-family: var(--mainFont);
@@ -67,6 +67,7 @@ body{
 }
 .mLink{
     color: var(--orange);
+    font-weight: bold;
     text-decoration: none;
     font-size: 25px;
     margin-left: 2px;
@@ -143,6 +144,10 @@ body{
     box-shadow: 10px 5px 5px var(--pink); 
     cursor: pointer;
 }
+
+.custom-badge1{
+    background-color: var(--mainColor);
+}
 .mobileonly-badge{
     display: none;
 }
@@ -152,6 +157,54 @@ body{
 .custom-badge{
     display: none;
 }
+/*Projects styles*/
+
+    .projects-title-container{
+        display: flex;
+        justify-content: center;
+    }
+    .projectTitle{
+        color: var(--orange);
+        font-family: var(--mainFont);
+        font-weight: bold;
+    }
+    .accordion{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .accordion-body{
+        display: flex;
+        flex-direction: row;
+    }
+    .left{
+        width: 25%;
+    }
+    .right{
+        width: 75%;
+    }
+    .project-img{
+        width: 100%
+    }
+    .project-name{
+        text-align: center;
+    }
+    .projects-desc{
+        font-size: 30px;
+        text-align: center;
+        font-family: var(--mainFont);
+        color: var(--mainColor);
+        font-weight: bold;
+    }
+    .project-links{
+        display: flex;
+        justify-content: center;
+    }
+    .project-link{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .link{
