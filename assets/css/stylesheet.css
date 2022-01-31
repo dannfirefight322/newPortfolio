@@ -38,8 +38,8 @@ body{
     letter-spacing: 1px;
 }
 .nav-item{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 .modal-title{
     font-family: var(--mainFont);
@@ -162,16 +162,19 @@ body{
     .projects-title-container{
         display: flex;
         justify-content: center;
+        
     }
     .projectTitle{
         color: var(--orange);
         font-family: var(--mainFont);
         font-weight: bold;
+        margin-top: 25px;
     }
     .accordion{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 15px;
     }
     .accordion-body{
         display: flex;
@@ -269,6 +272,29 @@ body{
         display: flex;
         margin: 2px;
     }
+    /*Projects*/
+    .accordion-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-img{
+        width: 400%;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 99%;
+}
+.project-img{
+    margin-left: auto;
+}
+.projects-desc{
+    font-size: 16px;
 }
 /* Tablet*/
 
@@ -285,5 +311,6 @@ body{
 }
 .navbar-nav{
     width: 90%;
+}
 }
 }
